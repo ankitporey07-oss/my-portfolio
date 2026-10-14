@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Ankit Porey | AI Developer</title>
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+
+<header class="navbar">
+    <a href="#home" class="logo">ANKIT<span>.</span></a>
+
+    <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero" id="home">
+        <p class="hero-tag">WELCOME TO MY DIGITAL WORLD</p>
+
+        <h1>
+            ANKIT <span>POREY</span>
+        </h1>
+
+        <h2>Python Developer & AI Enthusiast</h2>
+
+        <p class="hero-description">
+            I build creative websites and intelligent applications
+            that turn ideas into useful digital experiences.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+                Explore My Work ↗
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">
+                Contact Me
+            </a>
+        </div>
+
+        <div class="hero-status">
+            <span class="status-dot"></span>
+            BUILDING SOMETHING NEW
+        </div>
+    </section>
+
+    <section class="content-section" id="about">
+        <p class="section-label">01 / INTRODUCTION</p>
+        <h2>About <span>Me</span></h2>
+        <p>
+            I enjoy building practical digital solutions using
+            Python, web technologies and AI tools.
+        </p>
+    </section>
+
+    <section class="content-section" id="skills">
+        <p class="section-label">02 / WHAT I USE</p>
+        <h2>My <span>Skills</span></h2>
+        <div class="skill-list">
+            <span>Python</span>
+            <span>AI Tools</span>
+            <span>HTML & CSS</span>
+            <span>JavaScript</span>
+        </div>
+    </section>
+
+    
+<section class="content-section" id="projects">
+
+    <p class="section-label">03 / SELECTED WORK</p>
+
+    <h2>My <span>Projects</span></h2>
+
+    <p class="projects-intro">
+        Explore my experiments, creative ideas and digital projects.
+    </p>
+
+    <div class="project-grid">
+
+        <article class="project-card">
+    <span class="project-number">PROJECT / 01</span>
+
+    <div class="project-icon">🤖</div>
+
+    <h3>ROMEO AI Assistant</h3>
+
+    <p>
+        A personal desktop assistant designed to help users
+        access applications and perform everyday digital tasks.
+    </p>
+
+    <div class="project-tags">
+        <span>Python</span>
+        <span>Automation</span>
+        <span>AI Tools</span>
+    </div>
+    <div class="project-buttons">
+    <a
+        href="https://github.com/"
+        class="project-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        GitHub ↗
+    </a>
+
+    <a
+        href="#contact"
+        class="project-btn project-btn-demo"
+    >
+        Contact Me ↗
+    </a>
+</div>
+
+    <span class="project-status">PERSONAL PROJECT</span>
+</article>
+
+        <article class="project-card">
+    <span class="project-number">PROJECT / 02</span>
+
+    <div class="project-icon">🌐</div>
+
+    <h3>Creative Portfolio Website</h3>
+
+    <p>
+        A modern, responsive website featuring animated
+        backgrounds, glowing effects and interactive elements.
+    </p>
+
+    <div class="project-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+    </div>
+
+    <span class="project-status">WEB DEVELOPMENT</span>
+</article>
+
+        <article class="project-card">
+    <span class="project-number">PROJECT / 03</span>
+
+    <div class="project-icon">✨</div>
+
+    <h3>AI-Powered Web Concepts</h3>
+
+    <p>
+        Exploring how AI tools can help create useful
+        digital experiences and smarter web applications.
+    </p>
+
+    <div class="project-tags">
+        <span>Artificial Intelligence</span>
+        <span>Python</span>
+        <span>Web Ideas</span>
+    </div>
+
+    <span class="project-status">EXPERIMENTAL</span>
+</article>
+
+    </div>
+
+</section>
+
+
+
+    <section class="content-section contact-section" id="contact">
+
+    <p class="section-label">04 / GET IN TOUCH</p>
+
+    <h2>Let's <span>Work Together</span></h2>
+
+    <p class="contact-description">
+        Have an idea or a project in mind?
+        Let's turn it into something amazing.
+        Feel free to contact me by email.
+    </p>
+
+    <div class="contact-card">
+
+        <div class="contact-icon">✉</div>
+
+        <h3>Have a Project in Mind?</h3>
+
+        <p>
+            I'm open to discussing website ideas,
+            AI-powered projects and creative solutions.
+        </p>
+
+        <a
+            class="btn btn-primary"
+            href="mailto:ankitporey08@gmail.com?subject=Project%20Inquiry"
+        >
+            Send Me an Email ↗
+        </a>
+
+        <span class="contact-note">
+            EMAIL CONTACT · PROJECT INQUIRIES
+        </span>
+
+    </div>
+
+</section>
+        <p class="section-label">04 / GET IN TOUCH</p>
+        <h2>Let's <span>Connect</span></h2>
+        <p>Have a project in mind? Contact me by email.</p>
+
+        <a class="btn btn-primary"
+           href="mailto:YOUR_EMAIL@example.com">
+            Send Me an Email ↗
+        </a>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Ankit Porey · Built with creativity.</p>
+</footer>
+
+<script>
+document.querySelectorAll(".project-card").forEach(card => {
+    card.addEventListener("mousemove", event => {
+        const rect = card.getBoundingClientRect();
+
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+
+        card.style.setProperty("--mouse-x", `${x}px`);
+        card.style.setProperty("--mouse-y", `${y}px`);
+    });
+});
+</script>
+<script>
+const revealElements = document.querySelectorAll(
+    ".content-section, .project-card, .contact-card"
+);
+
+revealElements.forEach(element => {
+    element.classList.add("reveal");
+});
+
+const revealObserver = new IntersectionObserver(
+    (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+                observer.unobserve(entry.target);
+            }
+        });
+    },
+    {
+        threshold: 0.12
+    }
+);
+
+revealElements.forEach(element => {
+    revealObserver.observe(element);
+});
+</script>
+<!-- BACK TO TOP BUTTON -->
+
+<button id="backToTop" aria-label="Back to top" title="Back to top">
+    ↑
+</button>
+<script>
+const backToTopButton = document.getElementById("backToTop");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        backToTopButton.classList.add("show");
+    } else {
+        backToTopButton.classList.remove("show");
+    }
+});
+
+backToTopButton.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
+<script>
+const glow = document.createElement("div");
+
+glow.id = "mouseGlow";
+document.body.appendChild(glow);
+
+document.addEventListener("mousemove", (event) => {
+    glow.style.left = event.clientX + "px";
+    glow.style.top = event.clientY + "px";
+    glow.style.opacity = "1";
+});
+
+document.addEventListener("mouseleave", () => {
+    glow.style.opacity = "0";
+});
+</script>
+</body>
+</html>
